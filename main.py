@@ -8,7 +8,7 @@ from rose.engine import server
 def main():
     parser = argparse.ArgumentParser(description="Start the game engine.")
     parser.add_argument(
-        "-p", "--port", type=int, default=8880, help="Port for HTTP server"
+        "-p", "--port", type=int, default=8881, help="Port for HTTP server"
     )
     parser.add_argument(
         "--listen", default="127.0.0.1", help="Listening address for servers"
